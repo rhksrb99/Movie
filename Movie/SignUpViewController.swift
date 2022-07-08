@@ -95,9 +95,6 @@ class SignUpViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     
-//    @IBAction func signInTapGesture(_ sender: UITapGestureRecognizer) {
-//        view.endEditing(true)
-//    }
     
     // 버튼 클릭 시 Email, Password에 대한 상태에 따른 조건별 처리
     // 빈칸인 상태라면 경고에 대한 메시지 띄우기

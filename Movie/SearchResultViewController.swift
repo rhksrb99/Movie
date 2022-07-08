@@ -27,6 +27,8 @@ class SearchResultViewController: UIViewController {
         let request = URLRequest(url: myUrl)
         wv_result.load(request)
     }
+    
+    
 
 
 }

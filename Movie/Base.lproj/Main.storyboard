@@ -433,11 +433,11 @@
                         <outlet property="lb_info" destination="gDe-C7-kgj" id="yjU-wI-RJp"/>
                         <outlet property="lb_passwordWarning" destination="c3t-1I-siA" id="PKs-d9-Sq4"/>
                         <outlet property="lb_title" destination="EAt-cN-U3o" id="HXi-Bu-2Sj"/>
-                        <outlet property="tf_code" destination="lfk-aM-Nr1" id="YT6-Zl-2wz"/>
-                        <outlet property="tf_country" destination="nCa-i5-DNn" id="wXM-4T-wi5"/>
-                        <outlet property="tf_email" destination="8MR-XK-acg" id="VKW-yJ-AjX"/>
-                        <outlet property="tf_nickName" destination="8te-Vo-skn" id="RbI-kA-VGO"/>
-                        <outlet property="tf_password" destination="biP-Iw-T0I" id="8Hq-10-5gs"/>
+                        <outletCollection property="tf_userInfo" destination="8MR-XK-acg" collectionClass="NSMutableArray" id="EJG-Zv-JIy"/>
+                        <outletCollection property="tf_userInfo" destination="biP-Iw-T0I" collectionClass="NSMutableArray" id="lhd-9l-dq4"/>
+                        <outletCollection property="tf_userInfo" destination="8te-Vo-skn" collectionClass="NSMutableArray" id="Ips-4g-ncj"/>
+                        <outletCollection property="tf_userInfo" destination="nCa-i5-DNn" collectionClass="NSMutableArray" id="TeU-p4-wlt"/>
+                        <outletCollection property="tf_userInfo" destination="lfk-aM-Nr1" collectionClass="NSMutableArray" id="mog-pE-DAW"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8mG-p7-JeW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
